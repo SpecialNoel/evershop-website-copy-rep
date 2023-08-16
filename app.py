@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def myFunc():
-    return "This would also work"
+    return "This would work as well"
 
 
 if __name__ == "__main__":
