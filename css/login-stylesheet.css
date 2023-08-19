@@ -4,28 +4,6 @@ html, body {
     margin: 0;
 }
 
-ul {
-    padding: 0;
-    margin: 0;
-
-    list-style-type: none;
-}
-
-
-/* Act like but has a bit smaller indent thant <br />; 
-   it is written without using <br /> */
-.brlarge {
-    margin-bottom: 0.6em;
-
-    display: block;
-}
-
-
-/* To place texts over an image, 
-   first set the position of the container to 'relative', 
-   then set the position of the texts to  'absolute' */
-
-
 /*** Website Header ***/
 .website-header-container{
     position: relative;
@@ -144,92 +122,48 @@ ul {
 }
 
 
-/*** Discount Image and Related Fonts ***/
-.discount-image-container {
-    position: relative;
+/*** Section Hierarchy ***/
+.section-hierarchy-container {
+    border-top: solid rgb(230, 230, 230);
+    padding-top: 3.3vw;
+    padding-left: 3vw;
 }
 
-#discount-image {
-    width: 100%;
-    height: auto;
-    padding: 0;
-    margin: 0 auto;
+.section-hierarchy-home-link {
+    color: rgb(70, 100, 255);
 
-    position: relative;
-
-    opacity: 0.8;
+    text-decoration: none;
+    font-size: 1.9vw;
 }
 
-.discount-header-text {
-    top: 45%;
-    left: 10%;
-
-    font-size: 4.5vw;
-    font-weight: 300;
+.section-hierarchy-login-text {
+    font-size: 1.9vw;
 }
 
-.discount-normal-text-one {
-    top: 55%;
-    left: 35%;
 
-    font-size: 2vw;
-}
+/*** Login Panel ***/
+.login-panel-container {
+    width: 65%;
+    height: 46.2vw;
+    margin-top: 2.8vw;
+    margin-left: auto;
+    margin-right: auto;
 
-.discount-normal-text-two {
-    top: 60%;
-    left: 37.5%;
-
-    font-size: 2vw;
-}
-
-.discount-text-style {
     display: block;
+    position: relative;
+
+    background-color: rgb(70, 70, 70);
+    border-radius: 0.7vw;
+}
+
+#login-panel-header-text {
+    margin-top: 4.8vw;
+    margin-left: 27vw;
+
     position: absolute;
 
-    text-align: center;
-    text-shadow: -1px 1px 0 #000;
-    color: rgb(255, 255, 255);
-}
-
-
-/*** Cover Image and Related Fonts ***/
-.cover-image-container {
-    position: relative;
-}
-
-#cover-image {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-
-    display: block;
-    position: relative;
-}
-
-.cover-header-text {
-    font-size: 3vw;
-    font-weight: 100;
-}
-
-.cover-text-style-one {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-
-    display: block;
-
-    color: rgb(40, 40, 40);
-}
-
-.cover-text-style-two {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-
-    display: block;
-
-    font-size: 2vw;
-    color: rgb(40, 40, 40);
+    font-size: 4.5vw;
+    color: rgb(0, 0, 0)
 }
 
 

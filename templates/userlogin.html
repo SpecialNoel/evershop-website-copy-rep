@@ -4,6 +4,126 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="/Users/jianminglin/Desktop/evershop-website-copy-rep/css/login-stylesheet.css"
+    />
+
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
   </head>
-  <body></body>
+
+  <body>
+    <script src="/Users/jianminglin/Desktop/evershop-website-copy-rep/js/index.js"></script>
+
+    <!--Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Website Header-->
+    <div class="website-header-container">
+      <div class="website-header-left-container">
+        <a
+          href="file:///Users/jianminglin/Desktop/evershop-website-copy-rep/templates/home.html"
+          ><img
+            id="main-logo-image"
+            src="/Users/jianminglin/Desktop/evershop-website-copy-rep/img/evershop-logo-img.png"
+            alt="Evershop Logo"
+        /></a>
+      </div>
+
+      <div class="website-header-right-container">
+        <a href="https://demo.evershop.io/cart"
+          ><img
+            id="shopping-bag-image"
+            src="/Users/jianminglin/Desktop/evershop-website-copy-rep/img/shopping-bag-img.png"
+            alt="Shopping-bag Icon"
+        /></a>
+
+        <a
+          href="file:///Users/jianminglin/Desktop/evershop-website-copy-rep/templates/userlogin.html"
+          ><img
+            id="user-icon-image"
+            src="/Users/jianminglin/Desktop/evershop-website-copy-rep/img/user-icon-img.png"
+            alt="User Icon"
+        /></a>
+      </div>
+    </div>
+
+    <!--Side Menu-->
+    <div class="side-menu">
+      <button class="side-menu-button" onclick="openSideMenu()">
+        <img
+          id="side-menu-icon-image"
+          src="/Users/jianminglin/Desktop/evershop-website-copy-rep/img/side-menu-icon-img.png"
+          alt="Side menu icon"
+        />
+      </button>
+      <div id="side-menu-content">
+        <a href="https://demo.evershop.io/men">Men</a>
+        <br />
+        <hr />
+        <a href="https://demo.evershop.io/women">Women</a>
+        <br />
+        <hr />
+      </div>
+    </div>
+
+    <!--Section Hierarchy-->
+    <div class="section-hierarchy-container">
+      <a
+        class="section-hierarchy-home-link"
+        href="file:///Users/jianminglin/Desktop/evershop-website-copy-rep/templates/home.html"
+      >
+        <span>Home</span>
+      </a>
+      <span class="section-hierarchy-login-text"> / Login</span>
+    </div>
+
+    <!--Login Panel-->
+    <div class="login-panel-container">
+      <span id="login-panel-header-text">Login</span>
+    </div>
+
+    <!--Empty Spacing-->
+    <br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br />
+
+    <!--Website Footer-->
+    <div class="website-footer-container">
+      <img
+        class="website-footer-logo"
+        src="/Users/jianminglin/Desktop/evershop-website-copy-rep/img/visa-logo-img.png"
+        alt="Visa Logo"
+      />
+      &thinsp;
+      <img
+        class="website-footer-logo"
+        src="/Users/jianminglin/Desktop/evershop-website-copy-rep/img/mastercard-logo-img.png"
+        alt="Mastercard Logo"
+      />
+      &thinsp;
+      <img
+        class="website-footer-logo"
+        src="/Users/jianminglin/Desktop/evershop-website-copy-rep/img/paypal-logo-img.png"
+        alt="Paypal Logo"
+      />
+      <br />
+      <br />
+      <span class="website-footer-copyright-text"
+        >Copyright © 2023 EverShop</span
+      >
+      <br />
+      <br />
+    </div>
+  </body>
 </html>
