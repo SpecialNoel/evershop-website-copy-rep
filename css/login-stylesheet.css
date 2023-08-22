@@ -152,18 +152,21 @@ html, body {
     display: block;
     position: relative;
 
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(255, 255, 255);
     border-radius: 0.7vw;
+
+    /* Black shadow with 10px blur */
+    filter: drop-shadow(0 0 16px rgb(210, 210, 210));
 }
 
 #login-panel-header-text {
-    margin-top: 4.8vw;
-    margin-left: 27vw;
+    margin-top: 5vw;
+    margin-left: 27.5vw;
 
     position: absolute;
 
-    font-size: 4.5vw;
-    color: rgb(0, 0, 0)
+    font-size: 4.3vw;
+    color: rgb(60, 60, 60)
 }
 
 
