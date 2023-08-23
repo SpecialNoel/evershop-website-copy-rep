@@ -117,15 +117,15 @@ html, body {
     font-size: 1.9vw;
 }
 
-.section-hierarchy-current-page-text {
+.section-hierarch-current-page-text {
     font-size: 1.9vw;
 }
 
 
-/*** Login Panel ***/
-.login-panel-container {
+/*** Create Account Panel ***/
+.create-account-panel-container {
     width: 65%;
-    height: 46.2vw;
+    height: 55vw;
     margin-top: 2.8vw;
     margin-left: auto;
     margin-right: auto;
@@ -140,9 +140,10 @@ html, body {
     filter: drop-shadow(0 0 24px rgb(200, 200, 200));
 }
 
-#login-panel-header-text {
-    margin-top: 5vw;
-    margin-left: 27.5vw;
+#create-account-panel-header-text {
+    width: 60vw;
+    margin-top: 5.7vw;
+    margin-left: 11.6vw;
 
     position: absolute;
 
@@ -150,7 +151,7 @@ html, body {
     color: rgb(60, 60, 60)
 }
 
-.login-panel-container row {
+.create-account-panel-container row {
     content: "";
     display: table;
     clear: both;
@@ -165,12 +166,12 @@ html, body {
     color: rgb(150, 150, 150);
 }
 
-.login-panel-text-field {
+.create-account-panel-text-field {
     padding-top: 13vw;
     margin-left: 5.5vw;
 }
 
-#email-text-column, #password-column {
+#name-text-column, #email-text-column, #password-column {
     width: 83%;
     height: 5.8vw;
     margin-left: auto;
@@ -184,21 +185,25 @@ html, body {
     color: rgb(60, 60, 60);
 }
 
-#email-text-column {
+#name-text-column {
     top: 5vw;
     left: 10vw;
+}
+
+#email-text-column {
+    margin-top: 2.7vw;
 }
 
 #password-column {
     margin-top: 2.7vw;
 }
 
-#email-text-column::placeholder, #password-column::placeholder{    
+#name-text-column::placeholder, #email-text-column::placeholder, #password-column::placeholder{    
     font-size: 2vw;
     color: rgb(160, 160, 160);
 }
 
-#login-submit-button {
+#signup-submit-button {
     margin-top: -0.8vw;
     width: 79%;
     height: 6.3vw;
@@ -213,11 +218,11 @@ html, body {
     background-color: rgb(60, 60, 60);
 }
 
-#login-submit-button:hover {
+#signup-submit-button:hover {
     background-color: rgb(21, 94, 69);
 }
 
-.login-panel-option {
+.create-account-panel-option {
     padding-top: 1.3vw;
 
     display: inline-block;
@@ -225,25 +230,18 @@ html, body {
     font-size: 2vw;
 }
 
-.login-panel-option a {
+.create-account-panel-option a {
     text-decoration: none;
 }
 
-#create-account-text {
-    padding-left: 13vw;
+#normal-text {
+    font-size: 1.9vw;
+    padding-left: 18.5vw;
+    padding-top: 1vw;
+}
 
+#login-text {
     color: rgb(70, 100, 255);
-    font-size: 1.9vw;
-}
-
-#forgot-password-text {
-    padding-left: 2vw;
-
-    font-size: 1.9vw;
-}
-
-#reset-password-link {
-    color: rgb(0, 0, 0);
 }
 
 
