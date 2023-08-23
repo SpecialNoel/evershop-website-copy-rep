@@ -43,40 +43,20 @@ html, body {
 
 /*** Icon Images and Related Buttons in Website Header ***/
 #main-logo-image {
-    width: 9vw;
-    height: auto;
-    margin: 1.3vw;
+    width: 4.5vw;
+    margin: 3.3vw;
 }
 
 #shopping-bag-image {
-    width: 5vw;
-    height: auto;
-    margin-top: 3vw;
-    margin-left: 10vw;
-}
-
-.shop-button {
-    width: 17.5%;
-    margin-left: 2.6vw;
-
-    background-color: rgb(40, 40, 40);
-    border-radius: 0.3vw;
-    border-top: none;
-    border-left: none;
-    border-bottom: none;
-    border-right: none;
-
-    display: block;
-
-    color:  rgb(255, 255, 255);
-    font-size: 2.1vw;
+    width: 2.8vw;
+    margin-top: 4.3vw;
+    margin-left: 12.5vw;
 }
 
 #user-icon-image {
-    width: 4.5vw;
-    height: auto;
-    margin-top: 2.6vw;
-    margin-left: -0.1vw;
+    width: 2.6vw;
+    margin-top: 4.3vw;
+    margin-left: 1.5vw;
 }
 
 
@@ -87,8 +67,9 @@ html, body {
 }
 
 #side-menu-icon-image {
-    width: 3.7vw;
-    height: auto;
+    width: 3.8vw;
+    margin-top: 0.7vw;
+    margin-left: 0.1vw;
 }
 
 .side-menu-button {
