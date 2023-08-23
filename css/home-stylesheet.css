@@ -41,7 +41,7 @@ html, body {
 }
 
 
-/*** Icon Images and Related Buttons in Website Header ***/
+/*** Icon Images in Website Header ***/
 #main-logo-image {
     width: 4.5vw;
     margin: 3.3vw;
@@ -204,6 +204,23 @@ html, body {
 
     font-size: 2vw;
     color: rgb(40, 40, 40);
+}
+
+.shop-button {
+    width: 17.5%;
+    margin-left: 2.6vw;
+
+    background-color: rgb(40, 40, 40);
+    border-radius: 0.3vw;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+
+    display: block;
+
+    color:  rgb(255, 255, 255);
+    font-size: 2.1vw;
 }
 
 
