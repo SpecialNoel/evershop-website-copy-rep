@@ -93,12 +93,13 @@
     <div class="login-panel-container">
       <span id="login-panel-header-text">Login</span>
       <div class="row">
-        <div class="login-panel-text-field">
+        <form class="login-panel-text-field">
           <input
-            type="text"
+            type="email"
             id="email-text-column"
             name="email"
             placeholder="Email"
+            required
           />
           <input
             type="password"
@@ -106,9 +107,9 @@
             name="password"
             placeholder="Password"
           />
-        </div>
-        <hr />
-        <input type="submit" id="login-submit-button" value="SIGN IN" />
+          <hr />
+          <button id="login-submit-button">SIGN IN</button>
+        </form>
       </div>
       <div class="login-panel-option">
         <a

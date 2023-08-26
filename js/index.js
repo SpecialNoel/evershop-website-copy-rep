@@ -7,3 +7,9 @@ function openSideMenu() {
         click.style.display = "none";
     }
 }
+
+
+/* used for checking if the input email and password are valid */
+function checkValidEmailAndPassword() {
+    
+}
